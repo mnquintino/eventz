@@ -65,7 +65,7 @@ GEM
     autoprefixer-rails (10.4.2.0)
       execjs (~> 2)
     bindex (0.8.1)
-    bootsnap (1.10.2)
+    bootsnap (1.10.3)
       msgpack (~> 1.2)
     bootstrap (4.3.1)
       autoprefixer-rails (>= 9.1.0)
@@ -235,7 +235,7 @@ DEPENDENCIES
   webpacker (~> 5.0)
 
 RUBY VERSION
-   ruby 2.7.5p203
+   ruby 2.7.0p0
 
 BUNDLED WITH
    2.1.4
