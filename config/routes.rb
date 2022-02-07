@@ -1,8 +1,11 @@
 Rails.application.routes.draw do
 
+  
   root "events#index"
 
-  resources :events
+  resources :events do
+    resources :registrations
+  end
   
   # get "events" => "events#index"
   # get "events/new" => "events#new"
